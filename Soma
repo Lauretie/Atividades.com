@@ -1,0 +1,23 @@
+# Qualquer
+Ta bom 
+programa
+{
+	
+	funcao inicio()
+	{
+	
+    real a, b, soma, sub, mult, div
+	escreva ("digite o primeiro numero") 
+      leia(a)
+      escreva("digite o segundo numero")
+     leia(b)
+     soma = a+b // soma os dois valores
+     soma = a-b // subtrai os dois valores
+     soma = a*b // multiplica os dois valores
+     soma = a/b // divide os dois valores 
+    escreva ("soma dos numeros é igual a:",soma) // exiba o resultado da soma 
+      escreva ("subtracao dos numeros é igual a:",soma) // exiba o resultado da soma 
+         escreva (" soma dos numeros é igual a:",soma) // exiba o resultado da soma 
+           escreva (" soma dos numeros é igual a:",soma) // exiba o resultado da soma 
+	}
+}
