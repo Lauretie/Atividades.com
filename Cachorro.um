@@ -1,0 +1,22 @@
+programa
+{
+
+	
+	funcao cachorro(cadeia nome, inteiro idade) {
+		escreva("O ", nome, " saiu correndo da casinha roxa, tropeçou, foi até o portão e latiu.\n")
+		escreva("O " + nome + " possui ", idade, " anos\n")
+	}
+	
+	funcao inicio()
+ {
+		escreva("O carteiro chamou!\n")
+		cachorro("Pateta", 5)
+		escreva("Uma criança passou correndo.\n")
+		cachorro("Pateta", 6)
+		escreva("O carro do Ovo passou tocando Caneta Azul.\n")
+		cachorro("Pateta", 2)
+		escreva("Um outro cachorrou passou pelo portão.\n")
+		cachorro("Pateta", 3)
+	}
+
+}
